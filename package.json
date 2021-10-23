@@ -6,6 +6,9 @@
   "repository": "https://github.com/ricardo-jrm/nova.git",
   "author": "l1b3r_- <liber@ricardojrm.com>",
   "license": "MIT",
+  "scripts": {
+    "lint": "yarn eslint"
+  },
   "devDependencies": {
     "@types/node": "^16.11.4",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
