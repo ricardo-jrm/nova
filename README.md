@@ -1,0 +1,2 @@
+# nova
+NPM Package Boilerplate
