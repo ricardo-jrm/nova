@@ -4,9 +4,6 @@ on:
   release:
     types: [published]
 
-env:
-  owner: 'ricardo-jrm'
-
 jobs:
   publish-public:
     name: Publish Public Package to Github
@@ -17,7 +14,7 @@ jobs:
         with:
           node-version: '12'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@${{ env.owner }}'
+          scope: '@${{ GITHUB_ACTOR }}'
 
       - name: Checkout
         uses: actions/checkout@v2

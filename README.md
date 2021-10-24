@@ -1,8 +1,8 @@
 # nova
 
-NPM Package Boilerplate (WIP)
+NPM Package Boilerplate
 
-Bootstrap with `npx @l1b3r/nova`
+Bootstrap with `npx @ricardo-jrm/nova`
 
 - Typescript
 - Github Actions
