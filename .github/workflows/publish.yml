@@ -1,15 +1,12 @@
-name: Tests
+name: Publish Public
 
 on:
-  workflow_dispatch:
-  pull_request:
-    branches:
-      - master
-    types: [opened, edited, reopened, synchronize]
+  release:
+    types: [published]
 
 jobs:
-  test-pkg:
-    name: Test Package
+  publish-public:
+    name: Publish Package to Yarn (Public)
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -28,3 +25,9 @@ jobs:
 
       - name: Run Tests
         run: yarn test
+
+      - name: Build Package
+        run: yarn build
+
+      - name: Publish Package
+        run: yarn publish --access=public --new-version=${{ github.event.release.tag_name }}
