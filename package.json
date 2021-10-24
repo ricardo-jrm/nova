@@ -1,8 +1,9 @@
 {
   "name": "@l1b3r/nova",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "NPM Package Boilerplate",
   "main": "dist/index.js",
+  "bin": "dist/bin.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "repository": "https://github.com/ricardo-jrm/nova.git",
@@ -14,7 +15,6 @@
   ],
   "scripts": {
     "build": "tsc",
-    "degit": "npx degit https://github.com/ricardo-jrm/nova.git",
     "lint": "yarn eslint",
     "test": "jest"
   },
