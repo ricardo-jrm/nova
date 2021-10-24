@@ -14,14 +14,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Install Deps
+      - name: Install Node
         uses: actions/setup-node@v2
         with:
           node-version: '12'
+
+      - name: Install Deps
         run: yarn install
 
       - name: Run Tests
-        uses: actions/setup-node@v2
-        with:
-          node-version: '12'
         run: yarn test
