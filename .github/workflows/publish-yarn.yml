@@ -4,6 +4,9 @@ on:
   release:
     types: [published]
 
+env:
+  owner: 'ricardo-jrm'
+
 jobs:
   publish-public:
     name: Publish Public Package to Yarn
@@ -17,7 +20,7 @@ jobs:
         with:
           node-version: '12'
           registry-url: 'https://registry.npmjs.org'
-          scope: '@${{ env.GITHUB_ACTOR }}'
+          scope: '@${{ env.owner }}'
 
       - name: Config Name
         run: git config user.name ${{ secrets.GH_CONFIG_NAME }}
