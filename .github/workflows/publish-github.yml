@@ -1,0 +1,43 @@
+# name: Github Publish Public
+
+# on:
+#   workflow_dispatch:
+
+# jobs:
+#   publish-public:
+#     name: Publish Public Package to Yarn
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Config Name
+#         run: git config user.name ${{ secrets.GH_CONFIG_NAME }}
+
+#       - name: Config Email
+#         run: git config user.email ${{ secrets.GH_CONFIG_EMAIL }}
+
+#       - name: Node with Github Registry
+#         uses: actions/setup-node@v2
+#         with:
+#           registry-url: 'https://npm.pkg.github.com'
+#           scope: '@ricardo-jrm'
+
+#       - name: Install Deps
+#         run: yarn install
+
+#       - name: Run Lint
+#         run: yarn lint
+
+#       - name: Run Tests
+#         run: yarn test
+
+#       - name: Build Package
+#         run: yarn build
+
+#       - name: Build Org Dirs
+#         run: mkdir l1b3r
+#       - run: cd l1b3r
+#       - run: npm init --scope=@l1b3r
+
+#       - name: Publish Package to Github
+#         run: npm publish --access public
+#         env:
+#           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

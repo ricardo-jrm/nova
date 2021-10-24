@@ -1,4 +1,4 @@
-name: Publish Public
+name: Yarn Publish Public
 
 on:
   release:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   publish-public:
-    name: Publish Public Package
+    name: Publish Public Package to Yarn
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -37,18 +37,7 @@ jobs:
       - name: Build Package
         run: yarn build
 
-      - name: Publish Package to Yarn
+      - name: Publish Package
         run: yarn publish --access=public --new-version=${{ github.event.release.tag_name }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Switch Github Registry
-        uses: actions/setup-node@v2
-        with:
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@l1b3r'
-
-      - name: Publish Package to Github
-        run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
