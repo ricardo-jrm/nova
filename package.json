@@ -1,5 +1,5 @@
 {
-  "name": "@liber/nova",
+  "name": "@l1b3r/nova",
   "version": "1.0.0",
   "description": "NPM Package Boilerplate",
   "main": "dist/index.js",
