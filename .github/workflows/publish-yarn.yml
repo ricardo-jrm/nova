@@ -1,4 +1,4 @@
-name: Yarn Publish Public
+name: Publish Public Yarn
 
 on:
   release:
