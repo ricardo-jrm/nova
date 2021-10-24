@@ -1,6 +1,6 @@
 {
   "name": "@ricardo-jrm/nova",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "NPM Package Boilerplate",
   "main": "dist/index.js",
   "bin": "bin.js",
