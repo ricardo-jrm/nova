@@ -2,11 +2,13 @@
   "name": "@liber/nova",
   "version": "1.0.0",
   "description": "NPM Package Boilerplate",
-  "main": "index.js",
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/ricardo-jrm/nova.git",
   "author": "l1b3r_- <liber@ricardojrm.com>",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "lint": "yarn eslint"
   },
   "devDependencies": {
