@@ -1,6 +1,6 @@
 {
   "name": "@l1b3r/nova",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "NPM Package Boilerplate",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
