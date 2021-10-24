@@ -46,7 +46,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@ricardo-jrm'
+          scope: '@l1b3r'
 
       - name: Publish Package to Github
         run: npm publish
