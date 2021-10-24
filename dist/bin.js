@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-const { exec } = require('child_process');
+import { exec } from 'child_process';
+
 exec('npx degit https://github.com/ricardo-jrm/nova.git', (err, stdout, stderr) => {
   if (err) {
     return;
