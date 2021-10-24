@@ -49,6 +49,6 @@ jobs:
           scope: '@ricardo-jrm'
 
       - name: Publish Package to Github
-        run: yarn publish --access=public --new-version=${{ github.event.release.tag_name }}
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
