@@ -19,9 +19,9 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@${{ env.owner }}'
 
-      - name: Hack Job
-        run: mkdir @${{ env.targetScope }}
-      - run: cd @${{ env.targetScope }}
+      # - name: Hack Job
+      #   run: mkdir @${{ env.targetScope }}
+      # - run: cd @${{ env.targetScope }}
 
       - name: Checkout
         uses: actions/checkout@v2
