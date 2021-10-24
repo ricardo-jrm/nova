@@ -3,7 +3,7 @@
   "version": "1.0.10",
   "description": "NPM Package Boilerplate",
   "main": "dist/index.js",
-  "bin": "dist/bin.js",
+  "bin": "bin.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "repository": "https://github.com/ricardo-jrm/nova.git",
