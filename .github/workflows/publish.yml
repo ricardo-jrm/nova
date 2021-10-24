@@ -46,7 +46,7 @@ jobs:
         uses: actions/setup-node@v2
         with:
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@l1b3r'
+          scope: '@ricardo-jrm'
 
       - name: Publish Package to Github
         run: yarn publish --access=public --new-version=${{ github.event.release.tag_name }}
