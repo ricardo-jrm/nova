@@ -22,7 +22,7 @@ jobs:
       - name: Hack Job
         run: mkdir ${{ env.targetScope }}
       - run: cd ${{ env.targetScope }}
-      - run: npm init --scope=@${{ env.targetScope }} -y
+      - run: npm init --scope=@${{ env.targetScope }}/${{ env.project }} -y
       - run: mkdir ${{ env.project }}
       - run: cd ${{ env.project }}
 
