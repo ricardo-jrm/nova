@@ -8,9 +8,12 @@
   "repository": "https://github.com/ricardo-jrm/nova.git",
   "author": "l1b3r_- <liber@ricardojrm.com>",
   "license": "MIT",
+  "keywords": [
+    "typescript",
+    "npm"
+  ],
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js",
     "deploy": "yarn publish --access=public",
     "lint": "yarn eslint",
     "test": "jest"
