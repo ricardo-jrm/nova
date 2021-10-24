@@ -14,6 +14,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "degit": "npx degit https://github.com/ricardo-jrm/nova.git",
     "deploy": "yarn publish --access=public",
     "lint": "yarn eslint",
     "test": "jest"
