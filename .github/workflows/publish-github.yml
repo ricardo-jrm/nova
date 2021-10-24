@@ -1,34 +1,39 @@
-name: Github Publish Public
+name: Publish Public Github
 
 on:
   workflow_dispatch:
 
+env:
+  owner: 'ricardo-jrm'
+  targetScope: 'l1b3r'
+  project: 'nova'
+
 jobs:
   publish-public:
-    name: Publish Public Package to Yarn
+    name: Publish Public Package to Github
     runs-on: ubuntu-latest
     steps:
+      - name: Node with Github Registry
+        uses: actions/setup-node@v2
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@${{ env.owner }}'
+
+      - name: Hack Job
+        run: mkdir ${{ env.targetScope }}
+      - run: cd ${{ env.targetScope }}
+      - run: npm init --scope=@${{ env.targetScope }} -y
+      - run: mkdir ${{ env.project }}
+      - run: cd ${{ env.project }}
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - name: Config Name
         run: git config user.name ${{ secrets.GH_CONFIG_NAME }}
 
       - name: Config Email
         run: git config user.email ${{ secrets.GH_CONFIG_EMAIL }}
-
-      - name: Node with Github Registry
-        uses: actions/setup-node@v2
-        with:
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@ricardo-jrm'
-
-      - name: Hack Job
-        run: mkdir l1b3r
-      - run: cd l1b3r
-      - run: npm init --scope=@l1b3r -y
-      - run: mkdir nova
-      - run: cd nova
-
-      - name: Checkout
-        uses: actions/checkout@v2
 
       - name: Install Deps
         run: yarn install
