@@ -1,27 +1,23 @@
 name: Publish Public Github
 
 on:
-  workflow_dispatch:
+  release:
+    types: [published]
 
 env:
   owner: 'ricardo-jrm'
-  targetScope: 'l1b3r'
-  project: 'nova'
 
 jobs:
   publish-public:
     name: Publish Public Package to Github
     runs-on: ubuntu-latest
     steps:
-      - name: Node with Github Registry
+      - name: Node on Github Registry
         uses: actions/setup-node@v2
         with:
+          node-version: '12'
           registry-url: 'https://npm.pkg.github.com'
           scope: '@${{ env.owner }}'
-
-      # - name: Hack Job
-      #   run: mkdir @${{ env.targetScope }}
-      # - run: cd @${{ env.targetScope }}
 
       - name: Checkout
         uses: actions/checkout@v2

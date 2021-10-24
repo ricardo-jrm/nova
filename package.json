@@ -1,13 +1,13 @@
 {
   "name": "@ricardo-jrm/nova",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "description": "NPM Package Boilerplate",
   "main": "dist/index.js",
   "bin": "bin.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "repository": "https://github.com/ricardo-jrm/nova.git",
-  "author": "l1b3r_- <liber@ricardojrm.com>",
+  "author": "ricardo-jrm",
   "license": "MIT",
   "keywords": [
     "typescript",
