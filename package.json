@@ -1,7 +1,7 @@
 {
   "name": "@ricardo-jrm/nova",
   "description": "NPM Package Boilerplate",
-  "version": "1.1.2",
+  "version": "0.0.0-development",
   "bin": "bin.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release --branches main"
   },
   "jest": {
     "transform": {
@@ -46,6 +47,7 @@
     "jest": "^27.3.1",
     "lint-staged": "^12.1.2",
     "prettier": "^2.4.1",
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "semantic-release": "^18.0.1"
   }
 }
