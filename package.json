@@ -1,13 +1,24 @@
 {
   "name": "@ricardo-jrm/nova",
-  "description": "NPM Package Boilerplate",
+  "description": "Typescript NPM Package Boilerplate",
   "version": "0.0.0-development",
   "bin": "bin.js",
-  "main": "dist/index.js",
+  "main": "dist/index.min.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "repository": "https://github.com/ricardo-jrm/nova.git",
-  "author": "ricardo-jrm",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardo-jrm/nova.git"
+  },
+  "author": {
+    "name": "Ricardo Mota",
+    "url": "https://github.com/ricardo-jrm"
+  },
+  "homepage": "https://github.com/ricardo-jrm/nova#readme",
+  "bugs": {
+    "url": "https://github.com/ricardo-jrm/nova/issues"
+  },
   "license": "MIT",
   "keywords": [
     "typescript",
@@ -15,6 +26,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "bundle": "gulp",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "test": "jest",
@@ -43,11 +55,15 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
     "husky": "^7.0.0",
     "jest": "^27.3.1",
     "lint-staged": "^12.1.2",
     "prettier": "^2.4.1",
-    "typescript": "^4.4.4",
-    "semantic-release": "^18.0.1"
+    "semantic-release": "^18.0.1",
+    "typescript": "^4.4.4"
   }
 }
