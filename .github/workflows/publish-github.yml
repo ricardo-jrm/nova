@@ -34,10 +34,13 @@ jobs:
       - name: Run Tests
         run: yarn test
 
-      - name: Build Package
+      - name: Build
         run: yarn build
 
-      - name: Publish Package to Github
+      - name: Bundle
+        run: yarn bundle
+
+      - name: Publish
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
