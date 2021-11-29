@@ -104,6 +104,13 @@ jobs:
       - name: Bundle
         run: yarn bundle
 
+      - name: Sync Package
+        uses: WyriHaximus/github-action-delete-package@master
+        with:
+          packageVersionId: '0.0.0-development'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Publish Package to Github
         run: npm publish --access public
         env:
