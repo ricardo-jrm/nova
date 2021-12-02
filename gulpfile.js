@@ -5,8 +5,8 @@ import concat from 'gulp-concat';
 
 const { src, dest, series } = gulp;
 
-const bundleJS = () => {
-  return src('dist/index.js')
+const bundleJS = () =>
+  src('dist/index.js')
     .pipe(sourcemaps.init())
     .pipe(concat('index.min.js'))
     .pipe(
@@ -16,6 +16,5 @@ const bundleJS = () => {
     )
     .pipe(sourcemaps.write('./'))
     .pipe(dest('dist'));
-};
 
 export default series(bundleJS);
