@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { novaHelloWorld } from './index';
 
 test('console.log "Hello World from Nova"', () => {
