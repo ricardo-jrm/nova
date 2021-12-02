@@ -23,7 +23,7 @@
 
 ### <b>Usage</b>
 
-```
+```ts
 npx @ricardo-jrm/nova
 ```
 
