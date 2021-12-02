@@ -42,6 +42,8 @@
     "arrow-body-style": "warn",
     "no-multiple-empty-lines": "off",
     "no-trailing-spaces": "off",
+    "object-curly-spacing": "off",
+    "eol-last": "off",
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-empty-function": "warn"
   }
