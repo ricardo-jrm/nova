@@ -14,7 +14,6 @@
   },
   "extends": [
     "prettier",
-    "plugin:prettier/recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "airbnb",
@@ -36,10 +35,13 @@
   "rules": {
     "import/prefer-default-export": 0,
     "import/extensions": 0,
-    "@typescript-eslint/no-unused-vars": "warn",
     "no-unused-vars": "off",
     "indent": "off",
     "implicit-arrow-linebreak": "off",
-    "arrow-body-style": "warn"
+    "arrow-body-style": "warn",
+    "no-multiple-empty-lines": "off",
+    "no-trailing-spaces": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-empty-function": "warn"
   }
 }
