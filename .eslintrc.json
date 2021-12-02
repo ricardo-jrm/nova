@@ -37,6 +37,7 @@
     "import/extensions": 0,
     "no-unused-vars": "off",
     "indent": "off",
+    "semi": "off",
     "implicit-arrow-linebreak": "off",
     "arrow-body-style": "warn",
     "no-multiple-empty-lines": "off",
