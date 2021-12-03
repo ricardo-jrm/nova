@@ -1,1 +1,1 @@
-export const novaHelloWorld = () => console.log('Hello World from Nova');
+export const novaHelloWorld = () => console.log('Hello World from Nova'); // eslint-disable-line no-console
