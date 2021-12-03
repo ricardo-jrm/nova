@@ -67,4 +67,6 @@ Release
 
 [MIT](https://github.com/ricardo-jrm/nova/blob/main/LICENSE) © Ricardo <l1b3r\_-> Mota ([@ricardo-jrm](https://github.com/ricardo-jrm))
 
+Bootstrapped with 🟪[@ricardo-jrm/nova](https://github.com/ricardo-jrm/nova)
+
 <br />
