@@ -30,6 +30,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "test": "jest",
+    "test:watch": "jest --watch",
     "prepare": "husky install",
     "semantic-release": "semantic-release --branches main"
   },
