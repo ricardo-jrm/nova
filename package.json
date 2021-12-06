@@ -22,7 +22,12 @@
   "license": "MIT",
   "keywords": [
     "typescript",
-    "npm"
+    "npm",
+    "eslint",
+    "jest",
+    "prettier",
+    "husky",
+    "cicd"
   ],
   "scripts": {
     "build": "tsc",
