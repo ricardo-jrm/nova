@@ -1,4 +1,4 @@
-import { novaHelloWorld } from './index';
+import { novaHelloWorld } from '.';
 
 describe('example test suite', () => {
   it('should console.log "Hello World from Nova"', () => {
