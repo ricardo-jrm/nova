@@ -21,7 +21,7 @@
 
 <br />
 
-### <b>Usage</b>
+### <b>Bootstrap</b>
 
 ```ts
 npx @ricardo-jrm/nova
@@ -40,8 +40,14 @@ Quality Assurance
 
 Release
 
-- Will create a release with auto generated versioning and changelog
+- Will create a GitHub release with auto generated versioning and changelog
+- Will publish the package to the public NPM registry
 - Runs on `push` to `main` and after the QA job
+
+Publish to GitHub (Public)
+
+- Will publish the package to the public GitHub registry
+- Runs on `workflow_dispatch`
 
 <br />
 
@@ -56,6 +62,28 @@ Release
 - `Jest`
 - `Gulp`
 - `Semantic Release`
+
+<br />
+
+---
+
+<br />
+
+### <b>Install</b>
+
+```ts
+npm install @ricardo-jrm/nova
+
+yarn add @ricardo-jrm/nova
+```
+
+<br />
+
+### <b>Usage</b>
+
+```ts
+import { novaHelloWorld } from '@ricardo-jrm/nova';
+```
 
 <br />
 
