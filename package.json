@@ -1,7 +1,7 @@
 {
   "name": "@ricardo-jrm/nova",
   "description": "Typescript NPM Package Boilerplate",
-  "version": "0.0.3-development",
+  "version": "0.0.4-development",
   "bin": "bin.js",
   "main": "dist/index.min.js",
   "types": "dist/index.d.ts",
@@ -34,7 +34,7 @@
     "bundle": "gulp",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "prepare": "husky install",
     "semantic-release": "semantic-release --branches main"
