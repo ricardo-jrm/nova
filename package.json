@@ -1,10 +1,10 @@
 {
   "name": "@ricardo-jrm/nova",
   "description": "Typescript NPM Package Boilerplate",
-  "version": "0.0.4-development",
+  "version": "0.0.5-development",
   "bin": "bin.js",
   "main": "dist/index.min.js",
-  "types": "dist/index.d.ts",
+  "types": "out/index.d.ts",
   "type": "module",
   "private": false,
   "repository": {
