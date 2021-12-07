@@ -15,6 +15,6 @@ const bundleJS = () =>
       }),
     )
     .pipe(sourcemaps.write('./'))
-    .pipe(dest('dist'));
+    .pipe(dest('out'));
 
 export default series(bundleJS);
