@@ -13,6 +13,7 @@
     }
   },
   "extends": ["prettier", "plugin:@typescript-eslint/recommended"],
+  "ignorePatterns": ["node_modules", "dist", "out"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
