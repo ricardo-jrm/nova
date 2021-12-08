@@ -34,7 +34,7 @@
     "bundle": "gulp",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "prettier:fix": "prettier --write .",
+    "prettier:fix": "prettier --write --ignore-unknown .",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
     "prepare": "husky install",
