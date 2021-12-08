@@ -13,6 +13,7 @@
       }
     }
   },
+  "plugins": ["@typescript-eslint", "jest"],
   "extends": [
     "prettier",
     "plugin:@typescript-eslint/recommended",
@@ -32,7 +33,6 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "jest"],
   "rules": {
     "import/prefer-default-export": 0,
     "import/extensions": 0,
