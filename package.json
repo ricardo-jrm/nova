@@ -3,7 +3,7 @@
   "description": "Typescript NPM Package Boilerplate",
   "version": "0.0.9-development",
   "bin": "bin.js",
-  "main": "dist/index.min.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
