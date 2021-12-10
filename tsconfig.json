@@ -10,8 +10,6 @@
     "allowJs": true,
     "checkJs": true,
     "declaration": true,
-    // "declarationMap": true,
-    // "sourceMap": true,
     "outDir": "./dist",
     "newLine": "LF",
     "isolatedModules": true,
@@ -32,15 +30,6 @@
     "allowUnreachableCode": false,
     "skipLibCheck": true
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "out",
-    "./src/**/*.test.ts",
-    "./src/**/*.test.tsx",
-    "./src/**/*.stories.ts",
-    "./src/**/*.stories.tsx",
-    "./src/jest.setup.ts"
-  ],
-  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+  "exclude": ["node_modules", "dist", "out", "./src/**/*.test.ts"],
+  "include": ["./src/**/*.ts"]
 }
