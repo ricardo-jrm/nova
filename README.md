@@ -60,7 +60,6 @@ Publish to GitHub (Public)
 - `Lint Staged`
 - `Husky`
 - `Jest`
-- `Gulp`
 - `Semantic Release`
 
 <br />
