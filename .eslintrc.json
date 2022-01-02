@@ -52,6 +52,7 @@
     "@typescript-eslint/no-empty-function": "warn",
     "@typescript-eslint/no-var-requires": 0,
     "@typescript-eslint/no-inferrable-types": "warn",
-    "object-curly-newline": 0
+    "object-curly-newline": 0,
+    "max-len": "warn"
   }
 }
