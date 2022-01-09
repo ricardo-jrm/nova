@@ -23,7 +23,7 @@
 
 ### <b>Bootstrap</b>
 
-```ts
+```tsx
 npx @ricardo-jrm/nova
 ```
 
@@ -53,7 +53,9 @@ Publish to GitHub (Public)
 
 ### <b>Dev Dependencies</b>
 
+- `Yarn`
 - `Typescript`
+- `Nodemon`
 - `Prettier`
 - `ESLint`
 - `Commit Lint`
@@ -70,7 +72,7 @@ Publish to GitHub (Public)
 
 ### <b>Install</b>
 
-```ts
+```tsx
 npm install @ricardo-jrm/nova
 
 yarn add @ricardo-jrm/nova
@@ -78,10 +80,31 @@ yarn add @ricardo-jrm/nova
 
 <br />
 
+### <b>Scripts</b>
+
+```tsx
+// install deps
+yarn install
+
+// run dev
+yarn dev
+
+// compile ts
+yarn build
+
+// run lint
+yarn lint
+
+// run unit tests
+yarn test
+```
+
+<br />
+
 ### <b>Usage</b>
 
-```ts
-import { novaHelloWorld } from '@ricardo-jrm/nova';
+```tsx
+import { novaHelloWorld, novaHelloWorldType } from '@ricardo-jrm/nova';
 ```
 
 <br />
