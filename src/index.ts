@@ -1,1 +1,2 @@
-export { novaHelloWorld } from './package';
+export { novaHelloWorld } from './example';
+export type { novaHelloWorldType } from './example';
