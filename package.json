@@ -29,6 +29,7 @@
     "cicd"
   ],
   "scripts": {
+    "dev": "nodemon",
     "build": "tsc",
     "compile:noemit": "tsc-files --noEmit",
     "lint": "eslint .",
@@ -59,6 +60,7 @@
     "husky": "^7.0.0",
     "jest": "^27.3.1",
     "lint-staged": "^12.1.2",
+    "nodemon": "^2.0.15",
     "prettier": "^2.4.1",
     "semantic-release": "^18.0.1",
     "ts-jest": "^27.1.0",
