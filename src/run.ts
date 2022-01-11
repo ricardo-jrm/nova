@@ -1,4 +1,4 @@
-import { novaHelloWorld } from '.';
+import { example } from '.';
 
 console.log('--- run script ---');
-novaHelloWorld();
+example();

@@ -1,2 +1,2 @@
-export { novaHelloWorld } from './example';
-export type { novaHelloWorldType } from './example';
+export { example } from './example';
+export type { exampleType } from './example';

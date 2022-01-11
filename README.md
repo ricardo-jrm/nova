@@ -51,21 +51,6 @@ Publish to GitHub (Public)
 
 <br />
 
-### <b>Dev Dependencies</b>
-
-- `Yarn`
-- `Typescript`
-- `Nodemon`
-- `Prettier`
-- `ESLint`
-- `Commit Lint`
-- `Lint Staged`
-- `Husky`
-- `Jest`
-- `Semantic Release`
-
-<br />
-
 ---
 
 <br />
@@ -89,7 +74,7 @@ yarn install
 // run dev
 yarn dev
 
-// compile ts
+// run build
 yarn build
 
 // run lint
@@ -101,11 +86,37 @@ yarn test
 
 <br />
 
+### <b>Project</b>
+
+- [Project Page](https://l1b3r.notion.site/nova-564cb6e6b3c54345934a5cb1a59ebb0f)
+- [M0: MVP](https://l1b3r.notion.site/M0-MVP-75d9cb5bafba4e488af19475467f4e0b)
+- [Source Code](https://github.com/ricardo-jrm/nova)
+- [Releases Page](https://github.com/ricardo-jrm/nova/releases)
+
+<br />
+
 ### <b>Usage</b>
 
 ```tsx
-import { novaHelloWorld, novaHelloWorldType } from '@ricardo-jrm/nova';
+import { example, exampleType } from '@ricardo-jrm/nova';
+
+example();
 ```
+
+<br />
+
+### <b>Dev Dependencies</b>
+
+- `Yarn`
+- `Typescript`
+- `Nodemon`
+- `Prettier`
+- `ESLint`
+- `Commit Lint`
+- `Lint Staged`
+- `Husky`
+- `Jest`
+- `Semantic Release`
 
 <br />
 

@@ -1,11 +1,11 @@
 /**
- * novaHelloWorldType
+ * exampleType
  */
-export type novaHelloWorldType = () => void;
+export type exampleType = () => void;
 
 /**
- * novaHelloWorld
+ * example
  */
-export const novaHelloWorld: novaHelloWorldType = () => {
+export const example: exampleType = () => {
   return console.log('Hello World from Nova');
 };
