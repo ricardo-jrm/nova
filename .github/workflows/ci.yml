@@ -31,7 +31,7 @@ jobs:
         run: yarn install
 
       - name: Run Dry Build
-        run: yarn compile:noemit
+        run: yarn build:noemit
 
       - name: Run Lint
         run: yarn lint

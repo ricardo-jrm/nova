@@ -31,12 +31,13 @@
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
-    "compile:noemit": "tsc-files --noEmit",
+    "build:noemit": "tsc-files --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prettier:fix": "prettier --write --ignore-unknown .",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
+    "test:watchAll": "jest --watchAll",
     "prepare": "husky install",
     "semantic-release": "semantic-release --branches main"
   },
