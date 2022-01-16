@@ -105,6 +105,12 @@ example();
 
 <br />
 
+### <b>Project Dependencies</b>
+
+- <b>TS Package Boilerplate: [🟪 @ricardo-jrm/nova](https://github.com/ricardo-jrm/nova)</b>
+
+<br />
+
 ### <b>Dev Dependencies</b>
 
 - `Yarn`
