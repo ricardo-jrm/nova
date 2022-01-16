@@ -65,6 +65,16 @@ yarn add @ricardo-jrm/nova
 
 <br />
 
+### <b>Usage</b>
+
+```tsx
+import { example, exampleType } from '@ricardo-jrm/nova';
+
+example();
+```
+
+<br />
+
 ### <b>Scripts</b>
 
 ```tsx
@@ -92,16 +102,6 @@ yarn test
 - [M0: MVP](https://l1b3r.notion.site/M0-MVP-75d9cb5bafba4e488af19475467f4e0b)
 - [Source Code](https://github.com/ricardo-jrm/nova)
 - [Releases Page](https://github.com/ricardo-jrm/nova/releases)
-
-<br />
-
-### <b>Usage</b>
-
-```tsx
-import { example, exampleType } from '@ricardo-jrm/nova';
-
-example();
-```
 
 <br />
 
