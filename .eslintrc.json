@@ -53,6 +53,7 @@
     "@typescript-eslint/no-var-requires": 0,
     "@typescript-eslint/no-inferrable-types": "warn",
     "object-curly-newline": 0,
-    "max-len": 0
+    "max-len": 0,
+    "jest/valid-title": "warn"
   }
 }
