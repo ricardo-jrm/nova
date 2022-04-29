@@ -1,22 +1,22 @@
 {
-  "name": "@ricardo-jrm/nova",
+  "name": "@ricardojrmcom/nova",
   "description": "Typescript NPM Package Boilerplate",
-  "version": "0.1.0-development",
+  "version": "0.1.1-development",
   "bin": "bin.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-jrm/nova.git"
+    "url": "https://github.com/ricardojrmcom/nova.git"
   },
   "author": {
     "name": "Ricardo Mota",
-    "url": "https://github.com/ricardo-jrm"
+    "url": "https://github.com/ricardojrmcom"
   },
-  "homepage": "https://github.com/ricardo-jrm/nova#readme",
+  "homepage": "https://github.com/ricardojrmcom/nova#readme",
   "bugs": {
-    "url": "https://github.com/ricardo-jrm/nova/issues"
+    "url": "https://github.com/ricardojrmcom/nova/issues"
   },
   "license": "MIT",
   "keywords": [

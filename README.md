@@ -1,17 +1,17 @@
 <div align="center">
 
-# 🟪 `@ricardo-jrm/nova`
+# 🟪 `@ricardojrmcom/nova`
 
 <b>Typescript NPM Package Boilerplate</b>
 
-![build](https://img.shields.io/github/workflow/status/ricardo-jrm/nova/Continuous%20Integration?style=for-the-badge)
-![license](https://img.shields.io/github/license/ricardo-jrm/nova?style=for-the-badge)
+![build](https://img.shields.io/github/workflow/status/ricardojrmcom/nova/Continuous%20Integration?style=for-the-badge)
+![license](https://img.shields.io/github/license/ricardojrmcom/nova?style=for-the-badge)
 
-![author](<https://img.shields.io/badge/Author-Ricardo%20%3Cl1b3r__--%3E%20Mota%20(%40ricardo--jrm)-orange?style=for-the-badge>)
+![author](<https://img.shields.io/badge/Author-Ricardo%20%3Cl1b3r__--%3E%20Mota%20(%40ricardojrmcom)-orange?style=for-the-badge>)
 
-![lang](https://img.shields.io/github/languages/top/ricardo-jrm/nova?style=for-the-badge)
-![version](https://img.shields.io/npm/v/@ricardo-jrm/nova?style=for-the-badge)
-![size](https://img.shields.io/bundlephobia/min/@ricardo-jrm/nova?style=for-the-badge)
+![lang](https://img.shields.io/github/languages/top/ricardojrmcom/nova?style=for-the-badge)
+![version](https://img.shields.io/npm/v/@ricardojrmcom/nova?style=for-the-badge)
+![size](https://img.shields.io/bundlephobia/min/@ricardojrmcom/nova?style=for-the-badge)
 
 </div>
 
@@ -24,7 +24,7 @@
 ### <b>Bootstrap</b>
 
 ```tsx
-npx @ricardo-jrm/nova
+npx @ricardojrmcom/nova
 ```
 
 Boilerplate `TypeScript` project bootstrapped with all necessary configs and workflows
@@ -58,9 +58,9 @@ Publish to GitHub (Public)
 ### <b>Install</b>
 
 ```tsx
-npm install @ricardo-jrm/nova
+npm install @ricardojrmcom/nova
 
-yarn add @ricardo-jrm/nova
+yarn add @ricardojrmcom/nova
 ```
 
 <br />
@@ -68,7 +68,7 @@ yarn add @ricardo-jrm/nova
 ### <b>Usage</b>
 
 ```tsx
-import { example, exampleType } from '@ricardo-jrm/nova';
+import { example, exampleType } from '@ricardojrmcom/nova';
 
 example();
 ```
@@ -99,14 +99,14 @@ yarn test
 ### <b>Project</b>
 
 - [Project Page](https://l1b3r.notion.site/nova-564cb6e6b3c54345934a5cb1a59ebb0f)
-- [Source Code](https://github.com/ricardo-jrm/nova)
-- [Releases Page](https://github.com/ricardo-jrm/nova/releases)
+- [Source Code](https://github.com/ricardojrmcom/nova)
+- [Releases Page](https://github.com/ricardojrmcom/nova/releases)
 
 <br />
 
 ### <b>Project Dependencies</b>
 
-- <b>TS Package Boilerplate: [🟪 @ricardo-jrm/nova](https://github.com/ricardo-jrm/nova)</b>
+- <b>TS Package Boilerplate: [🟪 @ricardojrmcom/nova](https://github.com/ricardojrmcom/nova)</b>
 
 <br />
 
@@ -131,8 +131,8 @@ yarn test
 
 ### <b>License</b>
 
-[MIT](https://github.com/ricardo-jrm/nova/blob/main/LICENSE) © Ricardo <l1b3r\_-> Mota ([@ricardo-jrm](https://github.com/ricardo-jrm))
+[MIT](https://github.com/ricardojrmcom/nova/blob/main/LICENSE) © Ricardo <l1b3r\_-> Mota ([@ricardojrmcom](https://github.com/ricardojrmcom))
 
-Bootstrapped with 🟪[@ricardo-jrm/nova](https://github.com/ricardo-jrm/nova)
+Bootstrapped with 🟪[@ricardojrmcom/nova](https://github.com/ricardojrmcom/nova)
 
 <br />
